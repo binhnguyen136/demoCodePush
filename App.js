@@ -33,7 +33,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Code Push update
+          This is the new version of app
         </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js
