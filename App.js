@@ -24,7 +24,6 @@ const instructions = Platform.select({
 export default class App extends Component {
   componentWillMount() {
     codePush.sync({
-      updateDialog: true,
       installMode: codePush.InstallMode.IMMEDIATE
     });
   }
